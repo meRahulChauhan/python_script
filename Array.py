@@ -86,3 +86,7 @@ print(id(set3))
 print(type(set3))
 print(len(set3))
 
+setlist=set1.union(set2).union(set3)
+for y in setlist :
+    print(y)
+    
